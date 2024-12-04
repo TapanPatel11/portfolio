@@ -8,6 +8,8 @@ theme:
   favicon: assets/favicon.ico
   features:
     - navigation.footer
+    - navigation.tabs
+    - navigation.sections
   palette:
     # Dark Mode
     - scheme: slate
@@ -24,7 +26,20 @@ theme:
         name: Light mode
       primary: blue
       accent: deep orange
-
+nav:
+  - Home: index.md
+  - About:
+      - Overview: about/index.md
+      - Experiences: about/experiences.md
+      - Education: about/education.md
+      - Skills: about/skills.md
+      - Achievements: about/achievements.md
+  - Projects:
+      - Kubernetes Assignment: projects/project1.md
+      - Trivia Titans: projects/project2.md
+plugins:
+  - search
+  - mermaid2
 markdown_extensions:
   - attr_list
   - pymdownx.emoji:
@@ -45,5 +60,18 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+    - icon: fontawesome/solid/envelope
+      link: mailto:yourname@example.com
+
+footer: >
+  Made with ❤️ using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).  
+  Contact me via [GitHub](https://github.com/yourusername),  
+  [LinkedIn](https://linkedin.com/in/yourprofile), or [Email](mailto:yourname@example.com).  
 
 copyright: Copyright &copy; 2024 Tapan Patel
