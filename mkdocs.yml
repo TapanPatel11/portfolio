@@ -4,29 +4,55 @@ theme:
   font:
     text: Merriweather Sans
     code: Red Hat Mono
-  logo: assets/logo.png
+  # logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
     - navigation.footer
+    - navigation.tabs
+    - navigation.sections
   palette:
-    # Dark Mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
-      accent: deep purple
 
-    # Light Mode
-    - scheme: default
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-night
-        name: Light mode
-      primary: blue
-      accent: deep orange
+        icon: material/brightness-auto
+        name: Switch to light mode
 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+nav:
+  - Home: index.md
+  - About:
+      - Overview: about/index.md
+      - Experiences: about/experiences.md
+      - Education: about/education.md
+      - Skills: about/skills.md
+      - Achievements: about/achievements.md
+  - Projects:
+      - Kubernetes Assignment: projects/project1.md
+      - Trivia Titans: projects/project2.md
+plugins:
+  - search
+  - mermaid2
 markdown_extensions:
+  - neoteroi.cards
+  - def_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - attr_list
+  - neoteroi.timeline
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -45,5 +71,19 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile
+    - icon: fontawesome/solid/envelope
+      link: mailto:yourname@example.com
+extra_css:
+  - css/neoteroi-mkdocs.css
+footer: >
+  Made with ❤️ using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).  
+  Contact me via [GitHub](https://github.com/yourusername),  
+  [LinkedIn](https://linkedin.com/in/yourprofile), or [Email](mailto:yourname@example.com).  
 
 copyright: Copyright &copy; 2024 Tapan Patel
