@@ -46,7 +46,7 @@ plugins:
   - search
   - mermaid2
 markdown_extensions:
-markdown_extensions:
+  - neoteroi.cards
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
