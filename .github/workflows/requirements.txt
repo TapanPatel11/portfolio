@@ -1,3 +1,4 @@
 mkdocs-material
 neoteroi-mkdocs
 mkdocs-mermaid2-plugin
+mkdocs-embed-external-markdown

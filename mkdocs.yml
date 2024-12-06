@@ -40,11 +40,12 @@ nav:
       - Skills: about/skills.md
       - Achievements: about/achievements.md
   - Projects:
-      - Kubernetes Assignment: projects/project1.md
-      - Trivia Titans: projects/project2.md
+      - Overview: projects/index.md
+      - AnimeSage: projects/animesage.md
 plugins:
   - search
   - mermaid2
+  - external-markdown
 markdown_extensions:
   - neoteroi.cards
   - def_list
@@ -74,16 +75,16 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername
+      link: https://github.com/tapanpatel11
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/yourprofile
+      link: https://linkedin.com/in/tapanpatel11
     - icon: fontawesome/solid/envelope
-      link: mailto:yourname@example.com
+      link: mailto:tapan.patel@dal.ca
 extra_css:
   - css/neoteroi-mkdocs.css
 footer: >
   Made with ❤️ using [MkDocs Material](https://squidfunk.github.io/mkdocs-material/).  
-  Contact me via [GitHub](https://github.com/yourusername),  
-  [LinkedIn](https://linkedin.com/in/yourprofile), or [Email](mailto:yourname@example.com).  
+  Contact me via [GitHub](https://github.com/tapanpatel11),  
+  [LinkedIn](https://linkedin.com/in/tapanpatel11), or [Email](mailto:tapan.patel@dal.ca).  
 
 copyright: Copyright &copy; 2024 Tapan Patel
