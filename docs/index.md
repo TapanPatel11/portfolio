@@ -9,4 +9,5 @@ I specialize in:
 
 Explore my projects, skills, and achievements to learn how I solve complex challenges with innovative solutions.  
 
-![DevOps Engineer Banner](assets/devops.webp)
+## Some of my Achievements
+--8<-- "docs/about/achievements.md"
