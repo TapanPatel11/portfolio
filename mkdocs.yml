@@ -41,6 +41,7 @@ nav:
       - Achievements: about/achievements.md
   - Projects:
       - Overview: projects/index.md
+      - Atlantis: projects/atlantis.md
       - AnimeSage: projects/animesage.md
 plugins:
   - search
