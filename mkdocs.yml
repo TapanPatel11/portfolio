@@ -10,6 +10,8 @@ theme:
     - navigation.footer
     - navigation.tabs
     - navigation.sections
+    - content.code.copy
+    - content.code.select
   palette:
 
     # Palette toggle for automatic mode
@@ -43,11 +45,23 @@ nav:
       - Overview: projects/index.md
       - Atlantis: projects/atlantis.md
       - AnimeSage: projects/animesage.md
+      - Terraform:
+          - Modules: 
+              - AWS VPC: projects/terraform/modules/vpc.md
+              - AWS Backend: projects/terraform/modules/backend.md
+
 plugins:
   - search
   - mermaid2
   - external-markdown
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - neoteroi.cards
   - def_list
   - md_in_html
