@@ -12,15 +12,15 @@
   image: ../assets/icons/atlantis-logo.png
   url: atlantis.md
 
+- title: ArgoCD
+  content: Deploy ArgoCD on AWS EKS/ELB
+  image: ../assets/icons/argocd-logo.png
+  url: argocd.md
+
 - title: Anime Sage
   content: See this cool project
   image: ../assets/icons/animesagelogo.png
   url: animesage.md
-
-- title: Coming Soon
-  content: Cool Project Loading Soon
-  image: ../assets/icons/loading.png
-  url: 
 
 - title: Coming Soon
   content: Cool Project Loading Soon

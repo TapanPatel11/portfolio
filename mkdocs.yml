@@ -45,6 +45,7 @@ nav:
       - Overview: projects/index.md
       - Atlantis: projects/atlantis.md
       - AnimeSage: projects/animesage.md
+      - ArgoCD: projects/argocd.md
       - Terraform:
           - Modules: 
               - AWS VPC: projects/terraform/modules/vpc.md
