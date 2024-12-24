@@ -22,10 +22,10 @@
   image: ../assets/icons/animesagelogo.png
   url: animesage.md
 
-- title: Coming Soon
-  content: Cool Project Loading Soon
-  image: ../assets/icons/loading.png
-  url: 
+- title: iOS Development
+  content: Cool iOS AR Projects
+  image: ../assets/icons/apple.png
+  url: ./ios/overview.md
 
 - title: Coming Soon
   content: Cool Project Loading Soon
