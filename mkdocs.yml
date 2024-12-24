@@ -50,6 +50,10 @@ nav:
           - Modules: 
               - AWS VPC: projects/terraform/modules/vpc.md
               - AWS Backend: projects/terraform/modules/backend.md
+      - iOS Projects:
+          - Overview: projects/ios/overview.md
+          - Ludo AR: projects/ios/ludoar.md
+          - AR Business Card: projects/ios/arbusinesscard.md
 
 plugins:
   - search
