@@ -5,6 +5,16 @@
     I don't have a single "strong zone" because I believe in not restricting myself to one skill.  
     My journey is about continuous exploration and expanding my domain knowledge, embracing every opportunity to learn and adapt.
 
+## Tracking & Management
+
+<div class="grid cards" markdown style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem;">
+
+- :fontawesome-brands-jira: __JIRA__
+- :material-microsoft-azure: __Azure Boards__
+- :fontawesome-brands-confluence: __Confluence__
+- :simple-materialformkdocs: __MkDocs__
+
+</div>
 
 ## Programming  
 
@@ -14,8 +24,8 @@
 - :fontawesome-brands-python: __Python__ 
 - :fontawesome-brands-js: __JavaScript__ 
 - :material-dot-net: __C#__
-- :simple-c: __C__ 
-- :material-language-cpp: __C++__
+- :simple-c: 
+-  __C++__
 - :material-bash: __Bash__
 - :simple-linux: __Linux__
 

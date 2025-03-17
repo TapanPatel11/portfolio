@@ -34,13 +34,13 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 nav:
-  - Home: index.md
-  - About:
-      - Overview: about/index.md
+  - Home: 
+      - Overview: index.md
       - Experiences: about/experiences.md
       - Education: about/education.md
       - Skills: about/skills.md
       - Achievements: about/achievements.md
+
   - Projects:
       - Overview: projects/index.md
       - Atlantis: projects/atlantis.md
