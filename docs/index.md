@@ -1,7 +1,7 @@
 # ☁️ Welcome to My Cloud Universe 🚀  
 
 <div align="center">
-  <img src="portfolio/assets/images/dp.jpeg" alt="Profile Picture" width="230" 
+  <img src="./assets/images/dp.jpeg" alt="Profile Picture" width="230" 
   style="border-radius: 50%; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);">
 </div>  
 
